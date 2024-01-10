@@ -11,7 +11,7 @@ public class TeenNumberChecker{
     public static boolean isInRange (int num){
         return num >= 13 && num <= 19;
     }
-import java.util.Scanner;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the First Number : ");
