@@ -16,13 +16,13 @@ public class TeenNumberChecker{
         Scanner scanner = new Scanner(System.in);
 //       System.out.print("Enter the First Number : ");
 //        int num1 = scanner.nextInt();
-        num1 = 12;
+       int num1 = 12;
 //        System.out.print("Enter the Second Number : ");
 //        int num2 = scanner.nextInt();
-        num2 = 15;
+     int   num2 = 15;
 //        System.out.print("Enter the Third Number : ");
 //        int num3 = scanner.nextInt();
-        num3 = 19;
+     int   num3 = 19;
         boolean isTeen = FindTeen(num1,num2,num3);
         if (isTeen){
             System.out.println("At Least one number is Teena");
