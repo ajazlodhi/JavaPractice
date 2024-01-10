@@ -1,5 +1,5 @@
 
-import java.util.Scanner;
+
 public class TeenNumberChecker{
     public static boolean FindTeen(int num1, int num2, int num3) {
         boolean isTeen = false;
