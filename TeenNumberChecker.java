@@ -1,5 +1,5 @@
-import java.util.Scanner;
 
+import java.util.Scanner;
 public class TeenNumberChecker{
     public static boolean FindTeen(int num1, int num2, int num3) {
         boolean isTeen = false;
@@ -13,6 +13,7 @@ public class TeenNumberChecker{
     }
 
     public static void main(String[] args) {
+        import java.util.Scanner;
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the First Number : ");
         int num1 = scanner.nextInt();
