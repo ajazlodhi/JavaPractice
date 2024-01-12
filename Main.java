@@ -3,10 +3,10 @@
 public class Main {
     public static void main(String[] args) {
     Pen pen = new Pen();
-  /*  pen.describePen();
+    pen.describePen();
     pen.setManufacturer("Eagle Pen");
     pen.setColor("Red "); 
-    pen.setType("Ball Point"); */
+    pen.setType("Ball Point");
     System.out.println("Manufacturer = " + pen.getManufacturer());
     System.out.println("Color = " + pen.getColor());
     System.out.println("Type = " + pen.getType());
